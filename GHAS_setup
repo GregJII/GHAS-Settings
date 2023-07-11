@@ -101,7 +101,7 @@ with open('temp.csv', 'r+') as csv_file:
 
     test_file.close()
 
-    with open('C:\\Users\\(SHERWIN USER ID)\\OneDrive - Sherwin-Williams\\Desktop\\GHAS_SETUP.csv', 'r') as temp_file:
+    with open('GHAS_SETUP.csv', 'r') as temp_file:
         csv_file.write(test_file.read())
 
     csv_file.truncate
