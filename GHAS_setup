@@ -90,7 +90,8 @@ with open('temp.csv', 'r+') as csv_file:
             if advanced_security and advanced_security.get('advanced_security') and advanced_security['advanced_security'].get('status') == 'enabled':
                 ghas_status = 'Enabled'
             else:
-                ghas_staus = 'Not Enabled'
+                ghas_status = 'Not Enabled'
+
             if advanced_security and advanced_security.get('secret_scanning_push_protection') and advanced_security['secret_scanning_push_protection'].get('status') == 'enabled':
                 secret_scanning = 'Enabled'
             else:
